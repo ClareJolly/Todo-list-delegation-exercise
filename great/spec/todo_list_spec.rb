@@ -23,5 +23,10 @@ describe TodoList do
       subject.add("say hi", todo_class)
       expect(subject.get(0)).to_not be_nil
     end
+
+    it "formats a todo at an index" do
+      subject.add("say hi", todo_class)
+      expect(subject.get(0)).to_not be_nil
+    end
   end
 end
